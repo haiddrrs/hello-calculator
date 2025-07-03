@@ -1,6 +1,7 @@
 
-#Firt ask the user to enter his name and then greet the user with a welcome message.
-print("Welcome to the Calculator!")
+#First ask the user to enter his name and then greet the user with a welcome message.
+name = input("Enter your name: ")
+print("Welcome to the Calculator, " + name) 
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
