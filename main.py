@@ -1,11 +1,22 @@
-# This is a simple calculator program that performs addition and subtraction
-# It prompts the user for two numbers and then displays the results of the operations
-# It is designed to be user-friendly and straightforward
 
+#Firt ask the user to enter his name and then greet the user with a welcome message.
 print("Welcome to the Calculator!")
 
 num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 
-print("Sum:", num1 + num2)
-print("Difference:", num1 - num2)
+#Ask the user for which operation they want to perform
+print("Choose the operation you want to perform:")
+print("1: Addition")
+print("2: Substraction")
+print("3: Multiplication")
+print("4: Division")
+number = input("Enter the number of the chosen operation: ")
+if number == "1":
+    print("Result:", num1 + num2)
+elif number == "2":
+    print("Result:", num1 - num2)      
+elif number == "3":
+    print("Result:", num1 * num2)
+elif number == "4":
+    print("Result:", num1 / num2)
